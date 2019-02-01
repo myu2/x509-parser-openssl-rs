@@ -1,0 +1,13 @@
+[package]
+name = "x509-parser"
+version = "0.1.0"
+authors = ["myu2 <myumyug@gmail.com>"]
+links = "certificate"
+build = "build.rs"
+
+[dependencies]
+libc = "*"
+lazy_static = "*"
+
+[build-dependencies]
+gcc = "*"
